@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e93a2cd-e6c2-4717-9095-a48179cf0fb3" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://C:/Go" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2VFKH0nVPuDHoOn2na2XFvMBF4P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/华为云盘/golearn/GoCode/BitcoinDemo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="Go 构建.08文件案例.go">
+    <configuration name="03延迟调用defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/03延迟调用defer.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04recover拦截.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/04recover拦截.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05新建文件.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/05新建文件.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06写入内容.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/06写入内容.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07读取内容.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/07读取内容.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="08文件案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="GoCodeDay10" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoCodeDay10" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/08文件案例.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.08文件案例.go" />
+        <item itemvalue="Go 构建.07读取内容.go" />
+        <item itemvalue="Go 构建.06写入内容.go" />
+        <item itemvalue="Go 构建.05新建文件.go" />
+        <item itemvalue="Go 构建.04recover拦截.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
