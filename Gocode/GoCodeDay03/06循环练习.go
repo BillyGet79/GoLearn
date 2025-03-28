@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main0601() {
 
@@ -16,15 +18,14 @@ func main0601() {
 
 func main() {
 	//水仙花数	一个三位数 各个位数的立方和等于这个数本身
-	for i := 100; i <= 999; i++ {
-		//百位
-		a := i / 100
-		//十位
-		b := i / 10 % 10
-		//个位
-		c := i % 10
-		if a*a*a+b*b*b+c*c*c == i {
-			fmt.Println(i)
+	for i := 1; i <= 9; i++ {
+		for j := 0; j <= 9; j++ {
+			for k := 0; k <= 9; k++ {
+				if i*i*i+j*j*j+k*k*k == i*100+j*10+k {
+					fmt.Println(i*100 + j*10 + k)
+				}
+			}
 		}
 	}
+
 }

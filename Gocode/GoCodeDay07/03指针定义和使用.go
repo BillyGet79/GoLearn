@@ -19,7 +19,7 @@ func main0301() {
 	//读操作
 	fmt.Println(*p)
 }
-func main0302() {
+func main() {
 
 	//声明指针变量 默认值为0x0
 	//内存地址编号为0-255的空间为系统占用 不允许用户访问(读写)
@@ -41,7 +41,7 @@ func main0302() {
 	//fmt.Println(*p)
 }
 
-func main() {
+func main0303() {
 
 	//野指针	指针变量指向了一个未知的空间 会报错
 	//var p *int = *int(0x042058088)

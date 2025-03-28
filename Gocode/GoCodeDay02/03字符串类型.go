@@ -30,11 +30,20 @@ func main0302() {
 	fmt.Println(count)
 }
 
-func main() {
+func main0303() {
 	str1 := "赌场上线了"
 	str2 := "在线发牌"
 
 	//字符串的连接
 	str3 := str1 + str2
 	fmt.Println(str3)
+}
+
+func main() {
+	var str string
+	_, err := fmt.Scanf("%s", &str)
+	if err != nil {
+		return
+	}
+	fmt.Printf("%s", str)
 }

@@ -13,7 +13,7 @@ func main0401() {
 	fmt.Println(c)
 	fmt.Println(d)
 }
-func main0402() {
+func main() {
 	var a int = 10
 	var b int = 20
 
@@ -23,12 +23,13 @@ func main0402() {
 	//如果在多重赋值时有新定义的变量，可以使用自动推导类型
 	a, b, c, d := 110, 120, "你好", "朋友"
 
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
-	fmt.Println(d)
+	fmt.Printf("a的类型是：%T\n", a)
+	fmt.Printf("b的类型是：%T\n", b)
+	fmt.Printf("c的类型是：%T\n", c)
+	fmt.Printf("d的类型是：%T\n", d)
+
 }
-func main() {
+func main0403() {
 	//var a int = 10
 	//var b int = 20
 

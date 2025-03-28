@@ -17,7 +17,7 @@ func main0801() {
 
 }
 
-func main0802() {
+func main() {
 	a := 10
 	b := 20
 	//int类型
@@ -33,7 +33,7 @@ func main0802() {
 	fmt.Println(w)
 }
 
-func main() {
+func main0803() {
 	a := 10
 	b := 20
 

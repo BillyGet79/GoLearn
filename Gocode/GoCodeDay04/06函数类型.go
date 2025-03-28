@@ -23,6 +23,7 @@ func main() {
 	//f := demo1
 	//var f func(int, int)
 	var f FUNCDEMO
+	fmt.Printf("%T\n", f)
 	//函数类型定义的变量结束函数的地址
 	f = demo1
 	fmt.Println(f)

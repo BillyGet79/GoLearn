@@ -29,9 +29,12 @@ func main() {
 	//b = temp
 
 	//通过运算进行交换
-	a = a + b
-	b = a - b
-	a = a - b
+	//a = a + b
+	//b = a - b
+	//a = a - b
+
+	//go语言代码的优秀特点，直接交换
+	a, b = b, a
 
 	fmt.Println(a)
 	fmt.Println(b)

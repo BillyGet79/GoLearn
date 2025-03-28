@@ -9,7 +9,7 @@ func main1001() {
 
 	fmt.Println(a >= b) //false
 	fmt.Println(a == b) //false
-	fmt.Println(a != b) //trun
+	fmt.Println(a != b) //true
 }
 
 func main() {

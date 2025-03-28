@@ -9,9 +9,7 @@ func swap(a *int, b *int) {
 
 	//&变量 取地址操作 引用运算符
 	//*指针变量 取值操作 解引用运算符
-	temp := *a
-	*a = *b
-	*b = temp
+	*a, *b = *b, *a
 }
 
 func main() {

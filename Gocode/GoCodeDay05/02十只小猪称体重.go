@@ -34,9 +34,7 @@ func BubbleSort(arr []int) []int {
 		}
 		if arr[index] > arr[index+1] {
 			isFinish = false
-			temp := arr[index]
-			arr[index] = arr[index+1]
-			arr[index+1] = temp
+			arr[index], arr[index+1] = arr[index+1], arr[index]
 		}
 		index++
 	}

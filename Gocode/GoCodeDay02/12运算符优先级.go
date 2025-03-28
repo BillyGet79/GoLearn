@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main1201() {
+func main() {
 
 	a := 10
 
@@ -10,6 +10,8 @@ func main1201() {
 	fmt.Println(&a)
 	//* 取值运算符 p 指针变量
 	p := &a
+
+	fmt.Printf("%T\n", p)
 
 	//通过指针简介修改变量的值
 	*p = 123
@@ -25,7 +27,7 @@ func main1201() {
 	//通信 >- (???)
 }
 
-func main() {
+func main1202() {
 
 	//运算符优先级
 
