@@ -3,6 +3,7 @@ package redis
 import (
 	"context"
 	"github.com/redis/go-redis/v9"
+	"os"
 	"time"
 )
 
@@ -12,9 +13,9 @@ var (
 )
 
 // Redis配置参数
-const (
-	redisHost     = "49.232.28.223:6379"
-	redisPassword = "redis"
+var (
+	redisHost     = os.Getenv("REDIS_HOST")
+	redisPassword = os.Getenv("REDIS_PASSWORD")
 )
 
 // newRedisClient 创建Redis客户端连接池

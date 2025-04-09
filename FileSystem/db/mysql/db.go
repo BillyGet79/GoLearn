@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	db, _ = sql.Open("mysql", "root:mysql@tcp(49.232.28.223:3306)/filesystemdb?charset=utf8")
+	db, _ = sql.Open("mysql", os.Getenv("MYSQL_URL"))
 
 	//设置DB活跃连接数
 	db.SetConnMaxLifetime(1000)
