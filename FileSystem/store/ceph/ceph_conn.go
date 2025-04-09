@@ -3,6 +3,7 @@ package ceph
 import (
 	"gopkg.in/amz.v1/aws"
 	"gopkg.in/amz.v1/s3"
+	"os"
 )
 
 var cephConn *s3.S3
@@ -14,14 +15,14 @@ func GetCephConnection() *s3.S3 {
 	}
 	//初始化ceph的一些信息
 	auth := aws.Auth{
-		AccessKey: "YCU14JD9KCHYIZXISGPT",
-		SecretKey: "iDEzHFaaAsspIOAqttRho0EH8mJUYmnCkoqRLbzj",
+		AccessKey: os.Getenv("AWS_ACCESS_KEY_ID"),
+		SecretKey: os.Getenv("AWS_SECRET_ACCESS_KEY"),
 	}
 
 	curRegion := aws.Region{
 		Name:                 "default",
-		EC2Endpoint:          "http://49.232.28.223:7480",
-		S3Endpoint:           "http://49.232.28.223:7480",
+		EC2Endpoint:          os.Getenv("AWS_DEFAULT_ENDPOINT"),
+		S3Endpoint:           os.Getenv("AWS_DEFAULT_ENDPOINT"),
 		S3BucketEndpoint:     "",
 		S3LocationConstraint: false,
 		S3LowercaseBucket:    false,
