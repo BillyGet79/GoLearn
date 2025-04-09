@@ -1,1 +1,5 @@
-package Test560
+package main
+
+func main() {
+
+}
